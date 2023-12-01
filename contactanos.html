@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos - Aperturas Ajedrez</title>
+    <title>Aperturas ajedrez</title>
 </head>
 <body>
     <header>
@@ -95,32 +95,22 @@
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosostros.html">Acerca de nosotros</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="nosostros.html">Nosotros</a></li>
             <li><a href="mision_vision.html">Misión y Visión</a></li>
-            <li><a href="contactanos.html">Contactanos</a></li>
         </ul>
     </nav>
+    <h1>Contacto de Cliente</h1>
+    <form action="enviar_email.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+  
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+  
+      <input type="submit" value="Enviar">
+    </form>
     <article>
-        <br>
-        <h1>Apertura Española (Ruy Lopez)</h1>
-        <br>
-        <video controls autoplay loop src="vds/SaveTube.App-La Apertura Española para torpes _ Aperturas de ajedrez para dummies(720p).mp4"></video>
-        <br>
-        <p>Link del Video en Youtube</p>
-        <p>https://www.youtube.com/watch?v=q90ZvU_JeOw</p>
-        <br>
-        <br>
-        <h1>Defenza Petrov (Petroff, Defensa Rusa)</h1>
-        <br>
-        <video controls autoplay loop src="vds/X2Download.app-La Defensa Petrov _ Aperturas de ajedrez en 15 minutos.mp4"></video>
-        <p>Link del video</p>
-        <p>https://www.youtube.com/watch?v=q90ZvU_JeOw</p>
-        <br>
-        <h1>Apertura Italiana</h1>
-        <br>
-        <video controls autoplay loop src="vds/X2Download.app-Apertura ITALIANA para TORPES _ Aperturas de ajedrez para dummies.mp4"></video>
-        <p>Link del video</p>
-        <p>https://www.youtube.com/watch?v=yH_v2iMIHWo</p>
-    </article>
-</body>
-</html>
